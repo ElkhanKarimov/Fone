@@ -1,0 +1,61 @@
+.slick-arrow,
+.slick-prev {
+    background-color: rgb(204, 204, 204) !important;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+}
+
+.slider-container {
+    padding: 50px 100px;
+    position: relative;
+    flex-direction: row-reverse;
+}
+
+.slick-next {
+    position: absolute;
+    top: 105px !important;
+    right: -30px !important;
+}
+.slick-prev {
+    position: absolute;
+    top: 105px !important;
+    left: -30px !important;
+}
+.visit{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    margin-bottom: 50px;
+}
+.line{
+    width: 105px;
+    height: 2px;
+    position: absolute;
+    left: 710px;
+    top: 88px;
+    background-color: rgb(75,158,34);
+}
+.product-img {
+    width: 186px;
+    height: 186px;
+}
+.foodbox{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border:  1px solid rgb(217,217,217);
+    border-radius: 20px;
+}
+.maintext{
+    font-size: 19px;
+    color: black;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+}
+.ptext{
+    color: rgb(153,153,153);
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    justify-content: start;
+}

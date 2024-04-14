@@ -1,0 +1,73 @@
+.boxs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 360px;
+    height: 433px;
+    
+}
+
+.seller-img {
+    width: 330px;
+    height: 330px;
+}
+
+.bestseller {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.line2 {
+    width: 105px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: rgb(75, 158, 34);
+}
+
+.best {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.seller {
+    font-family: "Jost", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+}
+
+.price {
+    text-decoration: line-through;
+    color: rgb(151, 151, 151);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Jost", sans-serif;
+
+}
+
+.boxtexts {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+}
+.total{
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    color: rgb(75,158,34);
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}

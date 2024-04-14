@@ -1,0 +1,57 @@
+
+.carousel{
+    position: relative;
+}
+.slider1texts{
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; 
+    margin-left: 460px;
+    margin-top: 170px;
+    gap: 30px;
+}
+.style{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+}
+.burger{
+    font-size: 80px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+}
+.content{
+    font-size: 18px;
+    width: 400px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+}
+.shopnow{
+    width: 175px;
+    height: 45px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jost", sans-serif;
+}
+.shopnow:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.slider2texts{
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; 
+    margin-left: 470px;
+    margin-top: 170px;
+    gap: 30px;
+}

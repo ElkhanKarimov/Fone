@@ -1,0 +1,52 @@
+
+nav{
+    height: 83px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    z-index: 999;
+}
+.logo-img{
+    width: 160px;
+    height: 33px;
+}
+.menuLinks{
+    display: flex;
+    gap: 40px;
+}
+.menua{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-icons{
+    font-size: 30px;
+    display: flex;
+    gap: 15px;
+}
+.hot{
+    width: 26px;
+    height: 16px;
+    background-color: rgb(230,46,5);
+    color: white;
+    position: absolute;
+    font-size: 8px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    left: 685px;
+    
+}
+.nav-icons:hover{
+    cursor: pointer;
+}
+
+

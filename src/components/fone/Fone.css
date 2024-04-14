@@ -1,0 +1,33 @@
+
+.fone-section{
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.fone-img{
+    width: 270px;
+    height: 270px;
+}
+.fone-slider{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.foneinsta{
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+}
+.line3{
+    width: 105px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: rgb(75, 158, 34);
+}
+.fone{
+    font-size: 24px;
+    font-weight: 400;
+    color:  rgb(75, 158, 34);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}

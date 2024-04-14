@@ -1,0 +1,40 @@
+
+.enjoy-section{
+    position: relative;
+}
+.food-img{
+    max-width: 100%;
+}
+.enjoytexts{
+    position: absolute;
+    top: 250px;
+    left: 830px;
+    color: white;
+    font-family: "Jost", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.enjoy{
+    font-size: 45px;
+    font-weight: 600;
+}
+.when{
+    font-size: 18px;
+    font-weight: 400;
+}
+.now{
+    width: 166px;
+    height: 44px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+.now:hover{
+    border: 1px solid rgb(75,158,34);
+    background-color: rgb(75,158,34);
+    color: white;
+    transition: 0.5s;
+}
